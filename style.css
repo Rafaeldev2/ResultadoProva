@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F7F8F7;
+    color: black;
+}
+
+.header-blueTheme-nav{
+    height: 7vh;
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(15, 63, 94);
+}
+
+.img-logo{
+    height: 100%;
+    width: 30%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    height: 100%;
+    width: 70%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.unordered-lists{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.unordered-lists a{
+    text-decoration: none;
+    color: #F7F8F7;
+}
+
+.main-all-sections{
+    height: 86vh;
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-sobreNos{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 74, 106);
+}
+
+.sobreNos{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobreNos h1{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+    align-self: flex-end;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    flex-wrap: wrap;
+}
+
+.sobreNos p{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    flex-wrap: wrap;
+}
+
+.img-reuniao{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(./Assets/IMG/sobre.png);
+    background-size: cover;
+}
+
+.section-depoimentos{
+    height: 40%;
+    width: 100%;
+    background-color: #fffbd7;
+}
+
+.section-depoimentos h2{
+    color: rgb(24, 74, 106);
+    font-weight: 400;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.section-depoimentos p{
+    color: rgb(196, 113, 10);
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-bluetheme{
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(15, 63, 94);
+}
+
+.footer-bluetheme h6{
+    font-weight: 300;
+    color: #F7F8F7;
+}
+
+.social-media{
+    text-decoration: none;
+    color: #ffeb3b;
+    font-weight: 600;
+}
+
+.mailto{
+    text-decoration: none;
+    color: #F7F8F7;
+    font-weight: 400;
+}
+
+/* rgb(15, 63, 94)
+rgb(24, 74, 106)
+rgb(14, 67, 101)
+rgb(200, 200, 200)
+rgb(255, 252, 234)
+rgb(252, 250, 234)
+rgb(196, 113, 10)
+#002b5c
+#ffeb3b
+#ccc */
