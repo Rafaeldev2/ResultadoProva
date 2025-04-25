@@ -87,13 +87,14 @@ body{
     color: #fff;
     font-size: 2em;
     align-self: flex-end;
-    width: 100%;
-    text-align: center;
+    width: 70%;
+    text-align: left;
     font-weight: 400;
     flex-wrap: wrap;
 }
 
 .sobreNos p{
+    width: 70%;
     text-decoration: none;
     color: #fff;
     font-size: 1.2em;
@@ -137,7 +138,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: rgb(15, 63, 94);
+    background-color: #002b5c;
 }
 
 .footer-bluetheme h6{
